@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solana Transaction Viewer</title>
+  <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Solana Transaction Viewer</h1>
+  <label for="tx1">Transaction Signature 1:</label>
+  <input type="text" id="tx1" name="tx1" required>
+  <br>
+  <label for="tx2">Transaction Signature 2:</label>
+  <input type="text" id="tx2" name="tx2" required>
+  <br>
+  <button id="submit">Submit</button>
+  <br>
+  <canvas id="resultCanvas" width="500" height="300"></canvas>
+</body>
+</html>
