@@ -1,0 +1,20 @@
+{
+  "homepage": "http://gildercodes.github.io/blockburst_profit_images",
+  "name": "solana-tx-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.91.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
